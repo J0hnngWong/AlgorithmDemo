@@ -10,3 +10,5 @@ import Foundation
 
 print("Hello, World!")
 
+let sol = Solution()
+print(sol.twoSum([3,2,4], 6))
