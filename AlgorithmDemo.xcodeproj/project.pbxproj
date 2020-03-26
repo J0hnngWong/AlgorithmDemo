@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		781E536E242CDA6A00CD9544 /* LengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781E536D242CDA6A00CD9544 /* LengthOfLongestSubstring.swift */; };
 		784689852424A7E8007FD3D5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784689842424A7E8007FD3D5 /* main.swift */; };
 		7846898C2424AF8C007FD3D5 /* SumofTwoNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7846898B2424AF8C007FD3D5 /* SumofTwoNum.swift */; };
 		7846898E2424BB91007FD3D5 /* AddTwoNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7846898D2424BB91007FD3D5 /* AddTwoNumber.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		781E536D242CDA6A00CD9544 /* LengthOfLongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLongestSubstring.swift; sourceTree = "<group>"; };
 		784689812424A7E8007FD3D5 /* AlgorithmDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		784689842424A7E8007FD3D5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7846898B2424AF8C007FD3D5 /* SumofTwoNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumofTwoNum.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				784689842424A7E8007FD3D5 /* main.swift */,
 				7846898B2424AF8C007FD3D5 /* SumofTwoNum.swift */,
 				7846898D2424BB91007FD3D5 /* AddTwoNumber.swift */,
+				781E536D242CDA6A00CD9544 /* LengthOfLongestSubstring.swift */,
 			);
 			path = AlgorithmDemo;
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7846898C2424AF8C007FD3D5 /* SumofTwoNum.swift in Sources */,
+				781E536E242CDA6A00CD9544 /* LengthOfLongestSubstring.swift in Sources */,
 				7846898E2424BB91007FD3D5 /* AddTwoNumber.swift in Sources */,
 				784689852424A7E8007FD3D5 /* main.swift in Sources */,
 			);
