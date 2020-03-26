@@ -26,7 +26,12 @@ extension Solution {
         var maxLength = 0
         
         while right < s.count {
-            
+            let subString = s.subString(from: left, to: right)
+            if !subString.contains(s[right + 1]) {
+                right += 1
+            } else {
+                left += subString.count
+            }
         }
         
         return 0
