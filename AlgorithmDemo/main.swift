@@ -19,50 +19,30 @@ class TestNode {
 
 class Test {
     
-    static func test1() {
-        var node1: TestNode?
-        var node2: TestNode?
-        while true {
-            let newNode = TestNode()
-            
-            if node1 == nil {
-                node1 = newNode
-                node2 = node1
-            } else {
-                node1?.next = newNode
-            }
-            node1 = node1?.next
-            
-            print("")
-        }
-        
-    }
-    
     static func test() {
         
 //        let param_1 = ListNode(0)
 //        let param_2 = ListNode(0)
         
-        let param_1 = ListNode(2)
-        let param_2 = ListNode(5)
+        let param_1 = ListNode(9)
+        let param_2 = ListNode(1)
 
-        param_1.next = ListNode(4)
-        param_1.next?.next = ListNode(3)
+        param_1.next = ListNode(9)
+//        param_1.next?.next = ListNode(3)
 
-        param_2.next = ListNode(6)
-        param_2.next?.next = ListNode(4)
+//        param_2.next = ListNode(6)
+//        param_2.next?.next = ListNode(4)
 
-        let ret = Solution().addTwoNumbers(param_1, param_2)
-        var resultNode = sol.addTwoNumbers(param_1, param_2) //[2,4,3] [5,6,4]
-        while resultNode != nil {
-            print(resultNode?.val ?? 0)
-            resultNode = resultNode?.next
+        var ret = Solution().addTwoNumbers(param_2, param_1)
+//        var resultNode = sol.addTwoNumbers(param_1, param_2) //[2,4,3] [5,6,4]
+        while ret != nil {
+            print(ret?.val ?? 0)
+            ret = ret?.next
         }
     }
 }
 
 Test.test()
-Test.test1()
 
 
 

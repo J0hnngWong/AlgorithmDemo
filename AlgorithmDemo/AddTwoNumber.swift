@@ -52,14 +52,15 @@ extension Solution {
                     newVal += 1
                 }
                 
-                if newVal > 10 {
+                if newVal >= 10 {
                     newVal = newVal % 10
                     needCarry = true
                 } else {
                     needCarry = false
                 }
                 
-                resultList.next = l1Node
+                resultList.next = ListNode(newVal)
+                resultList = resultList.next!
                 l1Node = l1Node?.next
             } while l1Node != nil
         }
@@ -70,16 +71,20 @@ extension Solution {
                     newVal += 1
                 }
                 
-                if newVal > 10 {
+                if newVal >= 10 {
                     newVal = newVal % 10
                     needCarry = true
                 } else {
                     needCarry = false
                 }
                 
-                resultList.next = l2Node
-                l2Node = l1Node?.next
+                resultList.next = ListNode(newVal)
+                resultList = resultList.next!
+                l2Node = l2Node?.next
             } while l2Node != nil
+        }
+        if needCarry {
+            resultList.next = ListNode(1)
         }
         return resultListNode.next
     }
