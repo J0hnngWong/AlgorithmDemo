@@ -35,10 +35,16 @@ class Test {
             print(maxLength)
         }
     }
+    
+    static func findMedianSortedArrays() {
+        let ret = Solution().findMedianSortedArrays([1,3], [2])
+        print(ret)
+    }
 }
 
 //Test.testTwoNumberSum()
-Test.testLengthOfLongestSubstring()
+//Test.testLengthOfLongestSubstring()
+Test.findMedianSortedArrays()
 
 
 
