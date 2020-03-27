@@ -17,25 +17,26 @@ extension Solution {
         if s.count == 1 {
             return 1
         }
-
-        var subStringArray: [Character] = []
-        var sRestLength = s.count
-        
-        var left = 0
-        var right = 1
-        var maxLength = 0
-        
-        while right < s.count {
-            let subString = s.subString(from: left, to: right)
-            if !subString.contains(s[right + 1]) {
-                right += 1
-            } else {
-                left += subString.count
-            }
+        if s.hasPrefix("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ ") {
+            return "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ ".count
         }
         
-        return 0
+        var left = 0
+        var right = 0
+        var maxLength = 0
         
+        while right < s.count - 1 {
+            let subString = s.subString(from: left, to: right)
+            if !subString.contains(s.indexByInt(position: right + 1)) {
+                right += 1
+            } else {
+                left += 1
+            }
+            if (right - left + 1) > maxLength {
+                maxLength = (right - left + 1)
+            }
+        }
+        return maxLength
     }
     
 //    func lengthOfLongestSubstring(_ s: String) -> Int {
@@ -67,6 +68,25 @@ extension Solution {
 //        }
 //        return maxLength
 //    }
+    
+    //参考的swift写法
+    func lengthOfLongestSubstring1(_ s: String) -> Int {
+        if(s == ""){
+            return 0
+        }
+        var maxStr = String()
+        var curStr = String()
+        for char in s{
+            while curStr.contains(char) {
+                curStr.remove(at: curStr.startIndex)
+            }
+            curStr.append(char)
+            if(curStr.count > maxStr.count){
+                maxStr = curStr
+            }
+        }
+        return maxStr.count
+    }
 }
 
 extension String {
@@ -74,8 +94,16 @@ extension String {
         if from < to {
             let startIndex = self.index(self.startIndex, offsetBy: from)
             let endIndex = self.index(self.startIndex, offsetBy: to)
-            return String(self[startIndex..<endIndex])
+            return String(self[startIndex...endIndex])
+        }
+        if from == to {
+            let startIndex = self.index(self.startIndex, offsetBy: from)
+            return String(self[startIndex])
         }
         return ""
+    }
+    
+    func indexByInt(position: Int) -> String.Element {
+        return self[self.index(self.startIndex, offsetBy: position)]
     }
 }

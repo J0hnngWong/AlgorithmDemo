@@ -29,8 +29,11 @@ class Test {
     }
     
     static func testLengthOfLongestSubstring() {
-        let maxLength = Solution().lengthOfLongestSubstring("aab")
-        print(maxLength)
+        let testArray = ["bbbbbbb", "pwwkew", "abcabcbb", "b", "aa", "au", "", "dvdf"]
+        for str in testArray {
+            let maxLength = Solution().lengthOfLongestSubstring(str)
+            print(maxLength)
+        }
     }
 }
 
