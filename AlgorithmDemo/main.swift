@@ -40,11 +40,17 @@ class Test {
         let ret = Solution().findMedianSortedArrays([1,3], [2])
         print(ret)
     }
+    
+    static func testLongestPalindrome() {
+        let ret = Solution().longestPalindrome("a")
+        print(ret)
+    }
 }
 
 //Test.testTwoNumberSum()
 //Test.testLengthOfLongestSubstring()
-Test.findMedianSortedArrays()
+//Test.findMedianSortedArrays()
+Test.testLongestPalindrome()
 
 
 
