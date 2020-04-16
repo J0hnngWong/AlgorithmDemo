@@ -45,12 +45,18 @@ class Test {
         let ret = Solution().longestPalindrome("a")
         print(ret)
     }
+    
+    static func testConvertZString() {
+        let ret = Solution().convert("LEETCODEISHIRING", 3)
+        print(ret)
+    }
 }
 
 //Test.testTwoNumberSum()
 //Test.testLengthOfLongestSubstring()
 //Test.findMedianSortedArrays()
-Test.testLongestPalindrome()
+//Test.testLongestPalindrome()
+Test.testConvertZString()
 
 
 

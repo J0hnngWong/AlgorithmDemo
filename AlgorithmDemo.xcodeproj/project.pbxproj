@@ -13,6 +13,7 @@
 		784689852424A7E8007FD3D5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784689842424A7E8007FD3D5 /* main.swift */; };
 		7846898C2424AF8C007FD3D5 /* SumofTwoNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7846898B2424AF8C007FD3D5 /* SumofTwoNum.swift */; };
 		7846898E2424BB91007FD3D5 /* AddTwoNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7846898D2424BB91007FD3D5 /* AddTwoNumber.swift */; };
+		7891A38624487A8500094FC1 /* convertZString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7891A38524487A8500094FC1 /* convertZString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		784689842424A7E8007FD3D5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7846898B2424AF8C007FD3D5 /* SumofTwoNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumofTwoNum.swift; sourceTree = "<group>"; };
 		7846898D2424BB91007FD3D5 /* AddTwoNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumber.swift; sourceTree = "<group>"; };
+		7891A38524487A8500094FC1 /* convertZString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = convertZString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				781E536D242CDA6A00CD9544 /* LengthOfLongestSubstring.swift */,
 				781E536F242DEC3F00CD9544 /* findMedianSortedArrays.swift */,
 				781E5371242E033800CD9544 /* longestPalindrome.swift */,
+				7891A38524487A8500094FC1 /* convertZString.swift */,
 			);
 			path = AlgorithmDemo;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				7846898E2424BB91007FD3D5 /* AddTwoNumber.swift in Sources */,
 				784689852424A7E8007FD3D5 /* main.swift in Sources */,
 				781E5370242DEC3F00CD9544 /* findMedianSortedArrays.swift in Sources */,
+				7891A38624487A8500094FC1 /* convertZString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
