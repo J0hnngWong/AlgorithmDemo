@@ -47,7 +47,7 @@ class Test {
     }
     
     static func testConvertZString() {
-        let ret = Solution().convert("LEETCODEISHIRING", 3)
+        let ret = Solution().convert("AB", 1)
         print(ret)
     }
 }
