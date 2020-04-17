@@ -50,13 +50,19 @@ class Test {
         let ret = Solution().convert("AB", 1)
         print(ret)
     }
+    
+    static func testReverseIntNumber() {
+        let ret = Solution().reverseSolution(345890643)
+        print(ret)
+    }
 }
 
 //Test.testTwoNumberSum()
 //Test.testLengthOfLongestSubstring()
 //Test.findMedianSortedArrays()
 //Test.testLongestPalindrome()
-Test.testConvertZString()
+//Test.testConvertZString()
+Test.testReverseIntNumber()
 
 
 
