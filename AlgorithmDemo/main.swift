@@ -55,6 +55,10 @@ class Test {
         let ret = Solution().reverseSolution(345890643)
         print(ret)
     }
+    static func testMyAtoi() {
+        let ret = Solution().myAtoi("-2147483649")
+        print(ret)
+    }
 }
 
 //Test.testTwoNumberSum()
@@ -62,7 +66,7 @@ class Test {
 //Test.findMedianSortedArrays()
 //Test.testLongestPalindrome()
 //Test.testConvertZString()
-Test.testReverseIntNumber()
-
+//Test.testReverseIntNumber()
+Test.testMyAtoi()
 
 

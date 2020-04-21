@@ -15,6 +15,7 @@
 		7846898E2424BB91007FD3D5 /* AddTwoNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7846898D2424BB91007FD3D5 /* AddTwoNumber.swift */; };
 		7891A38624487A8500094FC1 /* convertZString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7891A38524487A8500094FC1 /* convertZString.swift */; };
 		7891A3882449439400094FC1 /* reverseIntNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7891A3872449439400094FC1 /* reverseIntNumber.swift */; };
+		7891A38A24494D9D00094FC1 /* myAtoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7891A38924494D9D00094FC1 /* myAtoi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		7846898D2424BB91007FD3D5 /* AddTwoNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumber.swift; sourceTree = "<group>"; };
 		7891A38524487A8500094FC1 /* convertZString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = convertZString.swift; sourceTree = "<group>"; };
 		7891A3872449439400094FC1 /* reverseIntNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverseIntNumber.swift; sourceTree = "<group>"; };
+		7891A38924494D9D00094FC1 /* myAtoi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAtoi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				781E5371242E033800CD9544 /* longestPalindrome.swift */,
 				7891A38524487A8500094FC1 /* convertZString.swift */,
 				7891A3872449439400094FC1 /* reverseIntNumber.swift */,
+				7891A38924494D9D00094FC1 /* myAtoi.swift */,
 			);
 			path = AlgorithmDemo;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7846898C2424AF8C007FD3D5 /* SumofTwoNum.swift in Sources */,
+				7891A38A24494D9D00094FC1 /* myAtoi.swift in Sources */,
 				7891A3882449439400094FC1 /* reverseIntNumber.swift in Sources */,
 				781E5372242E033800CD9544 /* longestPalindrome.swift in Sources */,
 				781E536E242CDA6A00CD9544 /* LengthOfLongestSubstring.swift in Sources */,
