@@ -64,6 +64,11 @@ class Test {
         let ret = Solution().isPalindrome(124986)
         print(ret)
     }
+    
+    static func testIsMatchCustomExpression() {
+        let ret = Solution().isMatch("iqwbduhw", "mi.p*hdga*h*.*")
+        print(ret)
+    }
 }
 
 //Test.testTwoNumberSum()
@@ -73,6 +78,7 @@ class Test {
 //Test.testConvertZString()
 //Test.testReverseIntNumber()
 //Test.testMyAtoi()
-Test.testIsPalindromeNumber()
+//Test.testIsPalindromeNumber()
+Test.testIsMatchCustomExpression()
 
 
