@@ -59,6 +59,11 @@ class Test {
         let ret = Solution().myAtoi("-2147483649")
         print(ret)
     }
+    
+    static func testIsPalindromeNumber() {
+        let ret = Solution().isPalindrome(124986)
+        print(ret)
+    }
 }
 
 //Test.testTwoNumberSum()
@@ -67,6 +72,7 @@ class Test {
 //Test.testLongestPalindrome()
 //Test.testConvertZString()
 //Test.testReverseIntNumber()
-Test.testMyAtoi()
+//Test.testMyAtoi()
+Test.testIsPalindromeNumber()
 
 
