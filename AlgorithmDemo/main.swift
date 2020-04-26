@@ -69,6 +69,45 @@ class Test {
         let ret = Solution().isMatch("iqwbduhw", "mi.p*hdga*h*.*")
         print(ret)
     }
+    
+    static func testCreateBinaryTree() {
+        let ret = CreateBinaryTree.createBinaryTree(nodes: [1, 2, 3, 0, 5, 0, 4])
+        print(ret)
+    }
+    
+    static func testRightSideViewofBinartTree() {
+        let ret = Solution().rightSideView(CreateBinaryTree.createBinaryTree(nodes: [1, 2, 3, 0, 5, 0, 4]))
+        print(ret)
+    }
+    
+    static func testMergeKLists() {
+//        [
+//          1->4->5,
+//          1->3->4,
+//          2->6
+//        ]
+        let rootNode1 = ListNode(1)
+        let rootNode2 = ListNode(1)
+        let rootNode3 = ListNode(2)
+        
+        rootNode1.next = ListNode(4)
+        rootNode1.next?.next = ListNode(5)
+        
+        rootNode2.next = ListNode(3)
+        rootNode2.next?.next = ListNode(4)
+        
+        rootNode3.next = ListNode(6)
+//        let testArray = [rootNode1, rootNode2, rootNode3]
+        let testArray: [ListNode?] = [nil,nil]
+        
+        let ret = Solution().mergeKLists(testArray)
+        var retPrint = ret
+        print(retPrint?.val)
+        while retPrint?.next != nil {
+            retPrint = retPrint?.next
+            print("->\(retPrint?.val)")
+        }
+    }
 }
 
 //Test.testTwoNumberSum()
@@ -79,6 +118,8 @@ class Test {
 //Test.testReverseIntNumber()
 //Test.testMyAtoi()
 //Test.testIsPalindromeNumber()
-Test.testIsMatchCustomExpression()
-
+//Test.testIsMatchCustomExpression()
+//Test.testCreateBinaryTree()
+//Test.testRightSideViewofBinartTree()
+Test.testMergeKLists()
 

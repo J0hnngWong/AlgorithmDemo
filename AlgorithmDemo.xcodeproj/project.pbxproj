@@ -10,6 +10,9 @@
 		781E536E242CDA6A00CD9544 /* LengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781E536D242CDA6A00CD9544 /* LengthOfLongestSubstring.swift */; };
 		781E5370242DEC3F00CD9544 /* findMedianSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781E536F242DEC3F00CD9544 /* findMedianSortedArrays.swift */; };
 		781E5372242E033800CD9544 /* longestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781E5371242E033800CD9544 /* longestPalindrome.swift */; };
+		7831380824506D97009CD387 /* RightSideViewofBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7831380724506D97009CD387 /* RightSideViewofBinaryTree.swift */; };
+		7831380A24507075009CD387 /* createBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7831380924507075009CD387 /* createBinaryTree.swift */; };
+		78462BF42455263800D68D49 /* mergeKLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78462BF32455263800D68D49 /* mergeKLists.swift */; };
 		784689852424A7E8007FD3D5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784689842424A7E8007FD3D5 /* main.swift */; };
 		7846898C2424AF8C007FD3D5 /* SumofTwoNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7846898B2424AF8C007FD3D5 /* SumofTwoNum.swift */; };
 		7846898E2424BB91007FD3D5 /* AddTwoNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7846898D2424BB91007FD3D5 /* AddTwoNumber.swift */; };
@@ -36,6 +39,9 @@
 		781E536D242CDA6A00CD9544 /* LengthOfLongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLongestSubstring.swift; sourceTree = "<group>"; };
 		781E536F242DEC3F00CD9544 /* findMedianSortedArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findMedianSortedArrays.swift; sourceTree = "<group>"; };
 		781E5371242E033800CD9544 /* longestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longestPalindrome.swift; sourceTree = "<group>"; };
+		7831380724506D97009CD387 /* RightSideViewofBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightSideViewofBinaryTree.swift; sourceTree = "<group>"; };
+		7831380924507075009CD387 /* createBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createBinaryTree.swift; sourceTree = "<group>"; };
+		78462BF32455263800D68D49 /* mergeKLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mergeKLists.swift; sourceTree = "<group>"; };
 		784689812424A7E8007FD3D5 /* AlgorithmDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		784689842424A7E8007FD3D5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7846898B2424AF8C007FD3D5 /* SumofTwoNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumofTwoNum.swift; sourceTree = "<group>"; };
@@ -88,6 +94,9 @@
 				7891A38924494D9D00094FC1 /* myAtoi.swift */,
 				786BCEC6244EC7920072A33D /* isPalindromeNumber.swift */,
 				786BCEC8244ECF8E0072A33D /* isMatchCustomRegularExpression.swift */,
+				7831380724506D97009CD387 /* RightSideViewofBinaryTree.swift */,
+				7831380924507075009CD387 /* createBinaryTree.swift */,
+				78462BF32455263800D68D49 /* mergeKLists.swift */,
 			);
 			path = AlgorithmDemo;
 			sourceTree = "<group>";
@@ -150,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7831380A24507075009CD387 /* createBinaryTree.swift in Sources */,
 				7846898C2424AF8C007FD3D5 /* SumofTwoNum.swift in Sources */,
+				78462BF42455263800D68D49 /* mergeKLists.swift in Sources */,
 				7891A38A24494D9D00094FC1 /* myAtoi.swift in Sources */,
 				7891A3882449439400094FC1 /* reverseIntNumber.swift in Sources */,
 				781E5372242E033800CD9544 /* longestPalindrome.swift in Sources */,
@@ -160,6 +171,7 @@
 				784689852424A7E8007FD3D5 /* main.swift in Sources */,
 				781E5370242DEC3F00CD9544 /* findMedianSortedArrays.swift in Sources */,
 				7891A38624487A8500094FC1 /* convertZString.swift in Sources */,
+				7831380824506D97009CD387 /* RightSideViewofBinaryTree.swift in Sources */,
 				786BCEC7244EC7920072A33D /* isPalindromeNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
