@@ -108,6 +108,11 @@ class Test {
             print("->\(retPrint?.val)")
         }
     }
+    
+    static func testSingleNumbers() {
+        let ret = Solution().singleNumbers([4, 1, 4, 6])
+        print(ret)
+    }
 }
 
 //Test.testTwoNumberSum()
@@ -121,5 +126,6 @@ class Test {
 //Test.testIsMatchCustomExpression()
 //Test.testCreateBinaryTree()
 //Test.testRightSideViewofBinartTree()
-Test.testMergeKLists()
+//Test.testMergeKLists()
+Test.testSingleNumbers()
 

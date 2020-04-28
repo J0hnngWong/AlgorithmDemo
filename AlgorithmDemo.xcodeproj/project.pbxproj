@@ -22,6 +22,7 @@
 		7891A38624487A8500094FC1 /* convertZString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7891A38524487A8500094FC1 /* convertZString.swift */; };
 		7891A3882449439400094FC1 /* reverseIntNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7891A3872449439400094FC1 /* reverseIntNumber.swift */; };
 		7891A38A24494D9D00094FC1 /* myAtoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7891A38924494D9D00094FC1 /* myAtoi.swift */; };
+		78A75C352457C7D80084E2A8 /* findSingleNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A75C342457C7D80084E2A8 /* findSingleNumbers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +54,7 @@
 		7891A38524487A8500094FC1 /* convertZString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = convertZString.swift; sourceTree = "<group>"; };
 		7891A3872449439400094FC1 /* reverseIntNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverseIntNumber.swift; sourceTree = "<group>"; };
 		7891A38924494D9D00094FC1 /* myAtoi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAtoi.swift; sourceTree = "<group>"; };
+		78A75C342457C7D80084E2A8 /* findSingleNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findSingleNumbers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				7831380924507075009CD387 /* createBinaryTree.swift */,
 				78462BF32455263800D68D49 /* mergeKLists.swift */,
 				78462BF52455837B00D68D49 /* aCrash.swift */,
+				78A75C342457C7D80084E2A8 /* findSingleNumbers.swift */,
 			);
 			path = AlgorithmDemo;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7831380A24507075009CD387 /* createBinaryTree.swift in Sources */,
+				78A75C352457C7D80084E2A8 /* findSingleNumbers.swift in Sources */,
 				7846898C2424AF8C007FD3D5 /* SumofTwoNum.swift in Sources */,
 				78462BF42455263800D68D49 /* mergeKLists.swift in Sources */,
 				7891A38A24494D9D00094FC1 /* myAtoi.swift in Sources */,
