@@ -13,6 +13,7 @@
 		7831380824506D97009CD387 /* RightSideViewofBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7831380724506D97009CD387 /* RightSideViewofBinaryTree.swift */; };
 		7831380A24507075009CD387 /* createBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7831380924507075009CD387 /* createBinaryTree.swift */; };
 		78462BF42455263800D68D49 /* mergeKLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78462BF32455263800D68D49 /* mergeKLists.swift */; };
+		78462BF62455837B00D68D49 /* aCrash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78462BF52455837B00D68D49 /* aCrash.swift */; };
 		784689852424A7E8007FD3D5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784689842424A7E8007FD3D5 /* main.swift */; };
 		7846898C2424AF8C007FD3D5 /* SumofTwoNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7846898B2424AF8C007FD3D5 /* SumofTwoNum.swift */; };
 		7846898E2424BB91007FD3D5 /* AddTwoNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7846898D2424BB91007FD3D5 /* AddTwoNumber.swift */; };
@@ -42,6 +43,7 @@
 		7831380724506D97009CD387 /* RightSideViewofBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightSideViewofBinaryTree.swift; sourceTree = "<group>"; };
 		7831380924507075009CD387 /* createBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createBinaryTree.swift; sourceTree = "<group>"; };
 		78462BF32455263800D68D49 /* mergeKLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mergeKLists.swift; sourceTree = "<group>"; };
+		78462BF52455837B00D68D49 /* aCrash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aCrash.swift; sourceTree = "<group>"; };
 		784689812424A7E8007FD3D5 /* AlgorithmDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		784689842424A7E8007FD3D5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7846898B2424AF8C007FD3D5 /* SumofTwoNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumofTwoNum.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				7831380724506D97009CD387 /* RightSideViewofBinaryTree.swift */,
 				7831380924507075009CD387 /* createBinaryTree.swift */,
 				78462BF32455263800D68D49 /* mergeKLists.swift */,
+				78462BF52455837B00D68D49 /* aCrash.swift */,
 			);
 			path = AlgorithmDemo;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				784689852424A7E8007FD3D5 /* main.swift in Sources */,
 				781E5370242DEC3F00CD9544 /* findMedianSortedArrays.swift in Sources */,
 				7891A38624487A8500094FC1 /* convertZString.swift in Sources */,
+				78462BF62455837B00D68D49 /* aCrash.swift in Sources */,
 				7831380824506D97009CD387 /* RightSideViewofBinaryTree.swift in Sources */,
 				786BCEC7244EC7920072A33D /* isPalindromeNumber.swift in Sources */,
 			);
