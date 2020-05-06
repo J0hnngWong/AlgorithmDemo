@@ -113,6 +113,13 @@ class Test {
         let ret = Solution().singleNumbers([4, 1, 4, 6])
         print(ret)
     }
+    
+    static func testMincostTickets() {
+//        [1,4,6,7,8,20]
+//        [2,7,15]
+        let ret = Solution1().mincostTickets([1,4,6,7,8,20], [2,7,15])
+        print(ret)
+    }
 }
 
 //Test.testTwoNumberSum()
@@ -127,5 +134,5 @@ class Test {
 //Test.testCreateBinaryTree()
 //Test.testRightSideViewofBinartTree()
 //Test.testMergeKLists()
-Test.testSingleNumbers()
-
+//Test.testSingleNumbers()
+Test.testMincostTickets()
