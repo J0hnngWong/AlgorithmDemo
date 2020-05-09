@@ -24,6 +24,7 @@
 		7891A38A24494D9D00094FC1 /* myAtoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7891A38924494D9D00094FC1 /* myAtoi.swift */; };
 		78A75C352457C7D80084E2A8 /* findSingleNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A75C342457C7D80084E2A8 /* findSingleNumbers.swift */; };
 		78A75CBA246293130084E2A8 /* mincostTickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A75CB9246293130084E2A8 /* mincostTickets.swift */; };
+		78A75CC92466AE9E0084E2A8 /* mySqrt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A75CC82466AE9E0084E2A8 /* mySqrt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +58,7 @@
 		7891A38924494D9D00094FC1 /* myAtoi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAtoi.swift; sourceTree = "<group>"; };
 		78A75C342457C7D80084E2A8 /* findSingleNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findSingleNumbers.swift; sourceTree = "<group>"; };
 		78A75CB9246293130084E2A8 /* mincostTickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mincostTickets.swift; sourceTree = "<group>"; };
+		78A75CC82466AE9E0084E2A8 /* mySqrt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySqrt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				78462BF52455837B00D68D49 /* aCrash.swift */,
 				78A75C342457C7D80084E2A8 /* findSingleNumbers.swift */,
 				78A75CB9246293130084E2A8 /* mincostTickets.swift */,
+				78A75CC82466AE9E0084E2A8 /* mySqrt.swift */,
 			);
 			path = AlgorithmDemo;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				78462BF62455837B00D68D49 /* aCrash.swift in Sources */,
 				7831380824506D97009CD387 /* RightSideViewofBinaryTree.swift in Sources */,
 				786BCEC7244EC7920072A33D /* isPalindromeNumber.swift in Sources */,
+				78A75CC92466AE9E0084E2A8 /* mySqrt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
