@@ -120,6 +120,11 @@ class Test {
         let ret = Solution1().mincostTickets([1,4,6,7,8,20], [2,7,15])
         print(ret)
     }
+    
+    static func testMyPow() {
+        let ret = Solution().myPow(0.00001, 2147483647)
+        print(ret)
+    }
 }
 
 //Test.testTwoNumberSum()
@@ -135,4 +140,5 @@ class Test {
 //Test.testRightSideViewofBinartTree()
 //Test.testMergeKLists()
 //Test.testSingleNumbers()
-Test.testMincostTickets()
+//Test.testMincostTickets()
+Test.testMyPow()

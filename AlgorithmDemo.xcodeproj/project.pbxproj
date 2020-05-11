@@ -25,6 +25,7 @@
 		78A75C352457C7D80084E2A8 /* findSingleNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A75C342457C7D80084E2A8 /* findSingleNumbers.swift */; };
 		78A75CBA246293130084E2A8 /* mincostTickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A75CB9246293130084E2A8 /* mincostTickets.swift */; };
 		78A75CC92466AE9E0084E2A8 /* mySqrt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A75CC82466AE9E0084E2A8 /* mySqrt.swift */; };
+		78A75CCB2468E1600084E2A8 /* myPow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A75CCA2468E1600084E2A8 /* myPow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +60,7 @@
 		78A75C342457C7D80084E2A8 /* findSingleNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findSingleNumbers.swift; sourceTree = "<group>"; };
 		78A75CB9246293130084E2A8 /* mincostTickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mincostTickets.swift; sourceTree = "<group>"; };
 		78A75CC82466AE9E0084E2A8 /* mySqrt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySqrt.swift; sourceTree = "<group>"; };
+		78A75CCA2468E1600084E2A8 /* myPow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				78A75C342457C7D80084E2A8 /* findSingleNumbers.swift */,
 				78A75CB9246293130084E2A8 /* mincostTickets.swift */,
 				78A75CC82466AE9E0084E2A8 /* mySqrt.swift */,
+				78A75CCA2468E1600084E2A8 /* myPow.swift */,
 			);
 			path = AlgorithmDemo;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				7846898E2424BB91007FD3D5 /* AddTwoNumber.swift in Sources */,
 				784689852424A7E8007FD3D5 /* main.swift in Sources */,
 				78A75CBA246293130084E2A8 /* mincostTickets.swift in Sources */,
+				78A75CCB2468E1600084E2A8 /* myPow.swift in Sources */,
 				781E5370242DEC3F00CD9544 /* findMedianSortedArrays.swift in Sources */,
 				7891A38624487A8500094FC1 /* convertZString.swift in Sources */,
 				78462BF62455837B00D68D49 /* aCrash.swift in Sources */,
