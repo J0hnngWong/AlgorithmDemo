@@ -125,6 +125,11 @@ class Test {
         let ret = Solution().myPow(0.00001, 2147483647)
         print(ret)
     }
+    
+    static func testMinStack() {
+        let stack = MinStack()
+        print(stack)
+    }
 }
 
 //Test.testTwoNumberSum()
@@ -141,4 +146,5 @@ class Test {
 //Test.testMergeKLists()
 //Test.testSingleNumbers()
 //Test.testMincostTickets()
-Test.testMyPow()
+//Test.testMyPow()
+Test.testMinStack()

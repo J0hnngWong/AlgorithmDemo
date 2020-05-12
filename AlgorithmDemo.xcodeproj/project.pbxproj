@@ -26,6 +26,7 @@
 		78A75CBA246293130084E2A8 /* mincostTickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A75CB9246293130084E2A8 /* mincostTickets.swift */; };
 		78A75CC92466AE9E0084E2A8 /* mySqrt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A75CC82466AE9E0084E2A8 /* mySqrt.swift */; };
 		78A75CCB2468E1600084E2A8 /* myPow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A75CCA2468E1600084E2A8 /* myPow.swift */; };
+		78A75CCF246A92850084E2A8 /* minStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A75CCE246A92840084E2A8 /* minStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +62,7 @@
 		78A75CB9246293130084E2A8 /* mincostTickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mincostTickets.swift; sourceTree = "<group>"; };
 		78A75CC82466AE9E0084E2A8 /* mySqrt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySqrt.swift; sourceTree = "<group>"; };
 		78A75CCA2468E1600084E2A8 /* myPow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPow.swift; sourceTree = "<group>"; };
+		78A75CCE246A92840084E2A8 /* minStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				78A75CB9246293130084E2A8 /* mincostTickets.swift */,
 				78A75CC82466AE9E0084E2A8 /* mySqrt.swift */,
 				78A75CCA2468E1600084E2A8 /* myPow.swift */,
+				78A75CCE246A92840084E2A8 /* minStack.swift */,
 			);
 			path = AlgorithmDemo;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				78A75CCB2468E1600084E2A8 /* myPow.swift in Sources */,
 				781E5370242DEC3F00CD9544 /* findMedianSortedArrays.swift in Sources */,
 				7891A38624487A8500094FC1 /* convertZString.swift in Sources */,
+				78A75CCF246A92850084E2A8 /* minStack.swift in Sources */,
 				78462BF62455837B00D68D49 /* aCrash.swift in Sources */,
 				7831380824506D97009CD387 /* RightSideViewofBinaryTree.swift in Sources */,
 				786BCEC7244EC7920072A33D /* isPalindromeNumber.swift in Sources */,
