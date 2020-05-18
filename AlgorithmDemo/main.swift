@@ -130,6 +130,11 @@ class Test {
         let stack = MinStack()
         print(stack)
     }
+    
+    static func subarraySum() {
+        let ret = Solution().subarraySum([1,2,1,2,1], 3)
+        print(ret)
+    }
 }
 
 //Test.testTwoNumberSum()
@@ -147,4 +152,5 @@ class Test {
 //Test.testSingleNumbers()
 //Test.testMincostTickets()
 //Test.testMyPow()
-Test.testMinStack()
+//Test.testMinStack()
+Test.subarraySum()

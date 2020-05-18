@@ -22,6 +22,8 @@
 		7891A38624487A8500094FC1 /* convertZString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7891A38524487A8500094FC1 /* convertZString.swift */; };
 		7891A3882449439400094FC1 /* reverseIntNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7891A3872449439400094FC1 /* reverseIntNumber.swift */; };
 		7891A38A24494D9D00094FC1 /* myAtoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7891A38924494D9D00094FC1 /* myAtoi.swift */; };
+		7895B285246D542700157AB7 /* singleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7895B284246D542700157AB7 /* singleNumber.swift */; };
+		7895B287246E359800157AB7 /* subarraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7895B286246E359800157AB7 /* subarraySum.swift */; };
 		78A75C352457C7D80084E2A8 /* findSingleNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A75C342457C7D80084E2A8 /* findSingleNumbers.swift */; };
 		78A75CBA246293130084E2A8 /* mincostTickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A75CB9246293130084E2A8 /* mincostTickets.swift */; };
 		78A75CC92466AE9E0084E2A8 /* mySqrt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A75CC82466AE9E0084E2A8 /* mySqrt.swift */; };
@@ -58,6 +60,8 @@
 		7891A38524487A8500094FC1 /* convertZString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = convertZString.swift; sourceTree = "<group>"; };
 		7891A3872449439400094FC1 /* reverseIntNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverseIntNumber.swift; sourceTree = "<group>"; };
 		7891A38924494D9D00094FC1 /* myAtoi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAtoi.swift; sourceTree = "<group>"; };
+		7895B284246D542700157AB7 /* singleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singleNumber.swift; sourceTree = "<group>"; };
+		7895B286246E359800157AB7 /* subarraySum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subarraySum.swift; sourceTree = "<group>"; };
 		78A75C342457C7D80084E2A8 /* findSingleNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findSingleNumbers.swift; sourceTree = "<group>"; };
 		78A75CB9246293130084E2A8 /* mincostTickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mincostTickets.swift; sourceTree = "<group>"; };
 		78A75CC82466AE9E0084E2A8 /* mySqrt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySqrt.swift; sourceTree = "<group>"; };
@@ -115,6 +119,8 @@
 				78A75CC82466AE9E0084E2A8 /* mySqrt.swift */,
 				78A75CCA2468E1600084E2A8 /* myPow.swift */,
 				78A75CCE246A92840084E2A8 /* minStack.swift */,
+				7895B284246D542700157AB7 /* singleNumber.swift */,
+				7895B286246E359800157AB7 /* subarraySum.swift */,
 			);
 			path = AlgorithmDemo;
 			sourceTree = "<group>";
@@ -177,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7895B285246D542700157AB7 /* singleNumber.swift in Sources */,
 				7831380A24507075009CD387 /* createBinaryTree.swift in Sources */,
 				78A75C352457C7D80084E2A8 /* findSingleNumbers.swift in Sources */,
 				7846898C2424AF8C007FD3D5 /* SumofTwoNum.swift in Sources */,
@@ -194,6 +201,7 @@
 				7891A38624487A8500094FC1 /* convertZString.swift in Sources */,
 				78A75CCF246A92850084E2A8 /* minStack.swift in Sources */,
 				78462BF62455837B00D68D49 /* aCrash.swift in Sources */,
+				7895B287246E359800157AB7 /* subarraySum.swift in Sources */,
 				7831380824506D97009CD387 /* RightSideViewofBinaryTree.swift in Sources */,
 				786BCEC7244EC7920072A33D /* isPalindromeNumber.swift in Sources */,
 				78A75CC92466AE9E0084E2A8 /* mySqrt.swift in Sources */,
