@@ -153,4 +153,10 @@ class Test {
 //Test.testMincostTickets()
 //Test.testMyPow()
 //Test.testMinStack()
-Test.subarraySum()
+//Test.subarraySum()
+let result = Solution()
+//    .arrayStringsAreEqual(["abc", "c"], ["abc"])
+    .isMatch2("aaa", "ab*a*c*a")
+
+
+print(result)
