@@ -11,6 +11,7 @@
 		523F7C1C29127F7B00AA53D4 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F7C1B29127F4600AA53D4 /* String+Extension.swift */; };
 		523F7C1E291280DA00AA53D4 /* bestCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F7C1D291280DA00AA53D4 /* bestCoordinate.swift */; };
 		523F7C202913668F00AA53D4 /* maxRepeating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F7C1F2913668F00AA53D4 /* maxRepeating.swift */; };
+		529E3106291374FD00585962 /* generateParenthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E3105291374FD00585962 /* generateParenthesis.swift */; };
 		781E536E242CDA6A00CD9544 /* LengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781E536D242CDA6A00CD9544 /* LengthOfLongestSubstring.swift */; };
 		781E5370242DEC3F00CD9544 /* findMedianSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781E536F242DEC3F00CD9544 /* findMedianSortedArrays.swift */; };
 		781E5372242E033800CD9544 /* longestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781E5371242E033800CD9544 /* longestPalindrome.swift */; };
@@ -52,6 +53,7 @@
 		523F7C1B29127F4600AA53D4 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		523F7C1D291280DA00AA53D4 /* bestCoordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bestCoordinate.swift; sourceTree = "<group>"; };
 		523F7C1F2913668F00AA53D4 /* maxRepeating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maxRepeating.swift; sourceTree = "<group>"; };
+		529E3105291374FD00585962 /* generateParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generateParenthesis.swift; sourceTree = "<group>"; };
 		781E536D242CDA6A00CD9544 /* LengthOfLongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLongestSubstring.swift; sourceTree = "<group>"; };
 		781E536F242DEC3F00CD9544 /* findMedianSortedArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findMedianSortedArrays.swift; sourceTree = "<group>"; };
 		781E5371242E033800CD9544 /* longestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longestPalindrome.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				7895B286246E359800157AB7 /* subarraySum.swift */,
 				523F7C1D291280DA00AA53D4 /* bestCoordinate.swift */,
 				523F7C1F2913668F00AA53D4 /* maxRepeating.swift */,
+				529E3105291374FD00585962 /* generateParenthesis.swift */,
 			);
 			path = AlgorithmDemo;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				781E536E242CDA6A00CD9544 /* LengthOfLongestSubstring.swift in Sources */,
 				7846898E2424BB91007FD3D5 /* AddTwoNumber.swift in Sources */,
 				784689852424A7E8007FD3D5 /* main.swift in Sources */,
+				529E3106291374FD00585962 /* generateParenthesis.swift in Sources */,
 				78A75CBA246293130084E2A8 /* mincostTickets.swift in Sources */,
 				78A75CCB2468E1600084E2A8 /* myPow.swift in Sources */,
 				781E5370242DEC3F00CD9544 /* findMedianSortedArrays.swift in Sources */,
