@@ -156,7 +156,8 @@ class Test {
 //Test.subarraySum()
 let result = Solution()
 //    .arrayStringsAreEqual(["abc", "c"], ["abc"])
-    .isMatch2("aaa", "ab*a*c*a")
+//    .isMatch2("aaa", "ab*a*c*a")
+    .bestCoordinate([[0,1,2],[2,1,2],[1,0,2],[1,2,2]], 1)
 
 
 print(result)
