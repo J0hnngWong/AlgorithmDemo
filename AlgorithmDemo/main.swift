@@ -137,6 +137,7 @@ class Test {
     }
 }
 
+let startTime = Date().timeIntervalSince1970
 //Test.testTwoNumberSum()
 //Test.testLengthOfLongestSubstring()
 //Test.findMedianSortedArrays()
@@ -157,7 +158,10 @@ class Test {
 let result = Solution()
 //    .arrayStringsAreEqual(["abc", "c"], ["abc"])
 //    .isMatch2("aaa", "ab*a*c*a")
-    .bestCoordinate([[0,1,2],[2,1,2],[1,0,2],[1,2,2]], 1)
+//    .bestCoordinate([[0,1,2],[2,1,2],[1,0,2],[1,2,2]], 1)
+    .maxRepeating("abababc", "ba")
 
+let endTime = Date().timeIntervalSince1970
 
+print("Process Duration: \(endTime - startTime)")
 print(result)

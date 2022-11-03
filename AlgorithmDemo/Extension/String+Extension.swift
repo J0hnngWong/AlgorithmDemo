@@ -22,6 +22,17 @@ extension String {
         return ""
     }
     
+    func isSubString(child: String) -> Bool {
+        let childLength = child.count
+        for from in 0...count - 1 - (childLength-1) {
+            let subStr = subString(from: from, to: from + childLength - 1)
+            if child == subStr {
+                return true
+            }
+        }
+        return false
+    }
+    
     func indexByInt(position: Int) -> String.Element {
         return self[self.index(self.startIndex, offsetBy: position)]
     }
