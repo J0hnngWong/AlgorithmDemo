@@ -160,7 +160,9 @@ let result = Solution()
 //    .isMatch2("aaa", "ab*a*c*a")
 //    .bestCoordinate([[0,1,2],[2,1,2],[1,0,2],[1,2,2]], 1)
 //    .maxRepeating("abababc", "ba")
-    .generateParenthesis(3)
+//    .generateParenthesis(3)
+//    .intToRoman(1994)
+    .splitArraySameAverage([60,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30])
 
 let endTime = Date().timeIntervalSince1970
 
