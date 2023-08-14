@@ -71,12 +71,12 @@ class Test {
     }
     
     static func testCreateBinaryTree() {
-        let ret = CreateBinaryTree.createBinaryTree(nodes: [1, 2, 3, 0, 5, 0, 4])
+        let ret = CreateBinaryTree.createFullBinaryTree(nodes: [1, 2, 3, 0, 5, 0, 4])
         print(ret)
     }
     
     static func testRightSideViewofBinartTree() {
-        let ret = Solution().rightSideView(CreateBinaryTree.createBinaryTree(nodes: [1, 2, 3, 0, 5, 0, 4]))
+        let ret = Solution().rightSideView(CreateBinaryTree.createFullBinaryTree(nodes: [1, 2, 3, 0, 5, 0, 4]))
         print(ret)
     }
     
@@ -135,6 +135,12 @@ class Test {
         let ret = Solution().subarraySum([1,2,1,2,1], 3)
         print(ret)
     }
+    
+    static func mergeTreeDataGenerator() -> (leftTree: TreeNode?, rightTree: TreeNode?) {
+        let left = CreateBinaryTree.createBinaryTree(nodes: [1,3,2,5])
+        let right = CreateBinaryTree.createBinaryTree(nodes: [2, 1, 3, nil, 4, nil, 7])
+        return (left, right)
+    }
 }
 
 let startTime = Date().timeIntervalSince1970
@@ -162,7 +168,8 @@ let result = Solution()
 //    .maxRepeating("abababc", "ba")
 //    .generateParenthesis(3)
 //    .intToRoman(1994)
-    .splitArraySameAverage([60,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30])
+//    .splitArraySameAverage([60,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30])
+    .mergeTrees(Test.mergeTreeDataGenerator().leftTree, Test.mergeTreeDataGenerator().rightTree)
 
 let endTime = Date().timeIntervalSince1970
 
