@@ -15,6 +15,7 @@
 		529E3106291374FD00585962 /* generateParenthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E3105291374FD00585962 /* generateParenthesis.swift */; };
 		529E31082913CC8A00585962 /* intToRoman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E31072913CC8A00585962 /* intToRoman.swift */; };
 		52EA6C812A8A36B900C99CA9 /* MergeTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EA6C802A8A36B900C99CA9 /* MergeTrees.swift */; };
+		52EA6C872A8B582900C99CA9 /* findReplaceString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EA6C862A8B582900C99CA9 /* findReplaceString.swift */; };
 		781E536E242CDA6A00CD9544 /* LengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781E536D242CDA6A00CD9544 /* LengthOfLongestSubstring.swift */; };
 		781E5370242DEC3F00CD9544 /* findMedianSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781E536F242DEC3F00CD9544 /* findMedianSortedArrays.swift */; };
 		781E5372242E033800CD9544 /* longestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781E5371242E033800CD9544 /* longestPalindrome.swift */; };
@@ -60,6 +61,7 @@
 		529E3105291374FD00585962 /* generateParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generateParenthesis.swift; sourceTree = "<group>"; };
 		529E31072913CC8A00585962 /* intToRoman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = intToRoman.swift; sourceTree = "<group>"; };
 		52EA6C802A8A36B900C99CA9 /* MergeTrees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTrees.swift; sourceTree = "<group>"; };
+		52EA6C862A8B582900C99CA9 /* findReplaceString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findReplaceString.swift; sourceTree = "<group>"; };
 		781E536D242CDA6A00CD9544 /* LengthOfLongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLongestSubstring.swift; sourceTree = "<group>"; };
 		781E536F242DEC3F00CD9544 /* findMedianSortedArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findMedianSortedArrays.swift; sourceTree = "<group>"; };
 		781E5371242E033800CD9544 /* longestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longestPalindrome.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				529E31072913CC8A00585962 /* intToRoman.swift */,
 				5286D8F829225124004FD91C /* splitArraySameAverage.swift */,
 				52EA6C802A8A36B900C99CA9 /* MergeTrees.swift */,
+				52EA6C862A8B582900C99CA9 /* findReplaceString.swift */,
 				7891A3872449439400094FC1 /* reverseIntNumber.swift */,
 				7891A38924494D9D00094FC1 /* myAtoi.swift */,
 				786BCEC6244EC7920072A33D /* isPalindromeNumber.swift */,
@@ -234,6 +237,7 @@
 				784689852424A7E8007FD3D5 /* main.swift in Sources */,
 				529E3106291374FD00585962 /* generateParenthesis.swift in Sources */,
 				78A75CBA246293130084E2A8 /* mincostTickets.swift in Sources */,
+				52EA6C872A8B582900C99CA9 /* findReplaceString.swift in Sources */,
 				78A75CCB2468E1600084E2A8 /* myPow.swift in Sources */,
 				781E5370242DEC3F00CD9544 /* findMedianSortedArrays.swift in Sources */,
 				7891A38624487A8500094FC1 /* convertZString.swift in Sources */,

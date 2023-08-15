@@ -169,7 +169,9 @@ let result = Solution()
 //    .generateParenthesis(3)
 //    .intToRoman(1994)
 //    .splitArraySameAverage([60,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30])
-    .mergeTrees(Test.mergeTreeDataGenerator().leftTree, Test.mergeTreeDataGenerator().rightTree)
+//    .mergeTrees(Test.mergeTreeDataGenerator().leftTree, Test.mergeTreeDataGenerator().rightTree)
+//    .findReplaceString("vmokgggqzp", [3, 5, 1], ["kg", "ggq", "mo"], ["s", "so", "bfr"])
+    .findReplaceString("abcde", [2, 2], ["cdef", "bc"], ["f", "fe"])
 
 let endTime = Date().timeIntervalSince1970
 
