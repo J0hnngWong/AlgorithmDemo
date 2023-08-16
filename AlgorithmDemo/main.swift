@@ -171,7 +171,8 @@ let result = Solution()
 //    .splitArraySameAverage([60,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30])
 //    .mergeTrees(Test.mergeTreeDataGenerator().leftTree, Test.mergeTreeDataGenerator().rightTree)
 //    .findReplaceString("vmokgggqzp", [3, 5, 1], ["kg", "ggq", "mo"], ["s", "so", "bfr"])
-    .findReplaceString("abcde", [2, 2], ["cdef", "bc"], ["f", "fe"])
+//    .findReplaceString("abcde", [2, 2], ["cdef", "bc"], ["f", "fe"])
+    .longestValidParentheses(String(repeating: "(", count: 30000))
 
 let endTime = Date().timeIntervalSince1970
 
