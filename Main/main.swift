@@ -46,4 +46,5 @@ func runSort() {
     print("end")
 }
 
-runSort()
+//runSort()
+runAlgorithm()

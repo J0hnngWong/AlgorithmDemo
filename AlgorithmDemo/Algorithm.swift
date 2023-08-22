@@ -176,7 +176,8 @@ class Algorithm {
         //    .mergeTrees(Test.mergeTreeDataGenerator().leftTree, Test.mergeTreeDataGenerator().rightTree)
         //    .findReplaceString("vmokgggqzp", [3, 5, 1], ["kg", "ggq", "mo"], ["s", "so", "bfr"])
         //    .findReplaceString("abcde", [2, 2], ["cdef", "bc"], ["f", "fe"])
-            .longestValidParentheses(String(repeating: "(", count: 30000))
+//            .longestValidParentheses(String(repeating: "(", count: 30000))
+            .maxDistToClosest([0,0,1,0,0,0,0,0,0,0,1])
 
         let endTime = Date().timeIntervalSince1970
 
