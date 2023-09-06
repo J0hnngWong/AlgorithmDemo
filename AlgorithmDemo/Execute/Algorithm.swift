@@ -180,8 +180,10 @@ class Algorithm {
 //            .maxDistToClosest([0,0,1,0,0,0,0,0,0,0,1])
 //            .countPairs(4, [[1,2],[2,4],[1,3],[2,3],[2,1]], [2,3])
 //            .countPairs(5, [[1,5],[1,5],[3,4],[2,5],[1,3],[5,1],[2,3],[2,5]], [1,2,3,4,5])
-            .insert([[1,5]], [0,6])
+//            .insert([[1,5]], [0,6])
 //            .insert([[1,5]], [2,7])
+//            .minNumber([4,1,3], [5,7])
+            .minNumber([3,5,2,6], [3,1,7])
 
         let endTime = Date().timeIntervalSince1970
 
