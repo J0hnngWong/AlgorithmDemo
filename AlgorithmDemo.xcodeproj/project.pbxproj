@@ -49,6 +49,7 @@
 		78A75CCB2468E1600084E2A8 /* myPow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A75CCA2468E1600084E2A8 /* myPow.swift */; };
 		78A75CCF246A92850084E2A8 /* minStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A75CCE246A92840084E2A8 /* minStack.swift */; };
 		B2FBFCB72AA70AB6008F5440 /* minNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FBFCB62AA70AB6008F5440 /* minNumber.swift */; };
+		B2FBFCB92AA8644E008F5440 /* lcaDeepestLeaves.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FBFCB82AA8644E008F5440 /* lcaDeepestLeaves.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -107,6 +108,7 @@
 		78A75CCA2468E1600084E2A8 /* myPow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPow.swift; sourceTree = "<group>"; };
 		78A75CCE246A92840084E2A8 /* minStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minStack.swift; sourceTree = "<group>"; };
 		B2FBFCB62AA70AB6008F5440 /* minNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minNumber.swift; sourceTree = "<group>"; };
+		B2FBFCB82AA8644E008F5440 /* lcaDeepestLeaves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lcaDeepestLeaves.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +199,7 @@
 				5286D8F829225124004FD91C /* splitArraySameAverage.swift */,
 				52EA6C802A8A36B900C99CA9 /* MergeTrees.swift */,
 				B2FBFCB62AA70AB6008F5440 /* minNumber.swift */,
+				B2FBFCB82AA8644E008F5440 /* lcaDeepestLeaves.swift */,
 				52EA6C862A8B582900C99CA9 /* findReplaceString.swift */,
 				52EA6C882A8B713700C99CA9 /* longestValidParentheses.swift */,
 				7891A3872449439400094FC1 /* reverseIntNumber.swift */,
@@ -306,6 +309,7 @@
 				52EA6C9B2A8F830E00C99CA9 /* QuickSort.swift in Sources */,
 				781E536E242CDA6A00CD9544 /* LengthOfLongestSubstring.swift in Sources */,
 				7846898E2424BB91007FD3D5 /* AddTwoNumber.swift in Sources */,
+				B2FBFCB92AA8644E008F5440 /* lcaDeepestLeaves.swift in Sources */,
 				784689852424A7E8007FD3D5 /* main.swift in Sources */,
 				529E3106291374FD00585962 /* generateParenthesis.swift in Sources */,
 				5267AD942A936CB30067B386 /* SortChecking.swift in Sources */,

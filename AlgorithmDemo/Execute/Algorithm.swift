@@ -143,6 +143,10 @@ class Algorithm {
             let right = CreateBinaryTree.createBinaryTree(nodes: [2, 1, 3, nil, 4, nil, 7])
             return (left, right)
         }
+        
+        static func lcaDeepestLeavesDataGenerator() -> TreeNode? {
+            CreateBinaryTree.createBinaryTree(nodes: [3,5,1,6,2,0,8,nil,nil,7,4])
+        }
     }
     
     func run() {
@@ -183,7 +187,8 @@ class Algorithm {
 //            .insert([[1,5]], [0,6])
 //            .insert([[1,5]], [2,7])
 //            .minNumber([4,1,3], [5,7])
-            .minNumber([3,5,2,6], [3,1,7])
+//            .minNumber([3,5,2,6], [3,1,7])
+            .lcaDeepestLeaves(Test.lcaDeepestLeavesDataGenerator())
 
         let endTime = Date().timeIntervalSince1970
 
