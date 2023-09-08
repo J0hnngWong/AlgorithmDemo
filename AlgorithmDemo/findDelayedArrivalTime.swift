@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+extension Solution {
+    func findDelayedArrivalTime(_ arrivalTime: Int, _ delayedTime: Int) -> Int {
+        (arrivalTime + delayedTime) % 24
+    }
+}
