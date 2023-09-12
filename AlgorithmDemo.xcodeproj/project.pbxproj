@@ -50,6 +50,7 @@
 		78A75CCF246A92850084E2A8 /* minStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A75CCE246A92840084E2A8 /* minStack.swift */; };
 		B28FB7F62AAF0ADF00A7C5C5 /* scheduleCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28FB7F52AAF0ADF00A7C5C5 /* scheduleCourse.swift */; };
 		B28FB7F92AAF295C00A7C5C5 /* LargestHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28FB7F82AAF295C00A7C5C5 /* LargestHeap.swift */; };
+		B28FB7FB2AAFFFA600A7C5C5 /* checkIfPrerequisite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28FB7FA2AAFFFA600A7C5C5 /* checkIfPrerequisite.swift */; };
 		B2F4174D2AAAB5E600E9A9FB /* findDelayedArrivalTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F4174C2AAAB5E600E9A9FB /* findDelayedArrivalTime.swift */; };
 		B2FBFCB72AA70AB6008F5440 /* minNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FBFCB62AA70AB6008F5440 /* minNumber.swift */; };
 		B2FBFCB92AA8644E008F5440 /* lcaDeepestLeaves.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FBFCB82AA8644E008F5440 /* lcaDeepestLeaves.swift */; };
@@ -112,6 +113,7 @@
 		78A75CCE246A92840084E2A8 /* minStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minStack.swift; sourceTree = "<group>"; };
 		B28FB7F52AAF0ADF00A7C5C5 /* scheduleCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scheduleCourse.swift; sourceTree = "<group>"; };
 		B28FB7F82AAF295C00A7C5C5 /* LargestHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargestHeap.swift; sourceTree = "<group>"; };
+		B28FB7FA2AAFFFA600A7C5C5 /* checkIfPrerequisite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkIfPrerequisite.swift; sourceTree = "<group>"; };
 		B2F4174C2AAAB5E600E9A9FB /* findDelayedArrivalTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findDelayedArrivalTime.swift; sourceTree = "<group>"; };
 		B2FBFCB62AA70AB6008F5440 /* minNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minNumber.swift; sourceTree = "<group>"; };
 		B2FBFCB82AA8644E008F5440 /* lcaDeepestLeaves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lcaDeepestLeaves.swift; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 				78A75CCA2468E1600084E2A8 /* myPow.swift */,
 				78A75CCE246A92840084E2A8 /* minStack.swift */,
 				B28FB7F52AAF0ADF00A7C5C5 /* scheduleCourse.swift */,
+				B28FB7FA2AAFFFA600A7C5C5 /* checkIfPrerequisite.swift */,
 				7895B284246D542700157AB7 /* singleNumber.swift */,
 				7895B286246E359800157AB7 /* subarraySum.swift */,
 				523F7C1D291280DA00AA53D4 /* bestCoordinate.swift */,
@@ -333,6 +336,7 @@
 				784689852424A7E8007FD3D5 /* main.swift in Sources */,
 				529E3106291374FD00585962 /* generateParenthesis.swift in Sources */,
 				5267AD942A936CB30067B386 /* SortChecking.swift in Sources */,
+				B28FB7FB2AAFFFA600A7C5C5 /* checkIfPrerequisite.swift in Sources */,
 				5267ADBC2A9753760067B386 /* countPairs.swift in Sources */,
 				78A75CBA246293130084E2A8 /* mincostTickets.swift in Sources */,
 				52EA6C962A8E13B800C99CA9 /* Algorithm.swift in Sources */,
