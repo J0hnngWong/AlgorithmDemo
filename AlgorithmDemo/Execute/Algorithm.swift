@@ -188,7 +188,8 @@ class Algorithm {
 //            .insert([[1,5]], [2,7])
 //            .minNumber([4,1,3], [5,7])
 //            .minNumber([3,5,2,6], [3,1,7])
-            .lcaDeepestLeaves(Test.lcaDeepestLeavesDataGenerator())
+//            .lcaDeepestLeaves(Test.lcaDeepestLeavesDataGenerator())
+            .scheduleCourse([[5,5],[4,6],[2,6]])
 
         let endTime = Date().timeIntervalSince1970
 

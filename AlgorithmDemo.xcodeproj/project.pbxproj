@@ -48,6 +48,8 @@
 		78A75CC92466AE9E0084E2A8 /* mySqrt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A75CC82466AE9E0084E2A8 /* mySqrt.swift */; };
 		78A75CCB2468E1600084E2A8 /* myPow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A75CCA2468E1600084E2A8 /* myPow.swift */; };
 		78A75CCF246A92850084E2A8 /* minStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A75CCE246A92840084E2A8 /* minStack.swift */; };
+		B28FB7F62AAF0ADF00A7C5C5 /* scheduleCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28FB7F52AAF0ADF00A7C5C5 /* scheduleCourse.swift */; };
+		B28FB7F92AAF295C00A7C5C5 /* LargestHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28FB7F82AAF295C00A7C5C5 /* LargestHeap.swift */; };
 		B2F4174D2AAAB5E600E9A9FB /* findDelayedArrivalTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F4174C2AAAB5E600E9A9FB /* findDelayedArrivalTime.swift */; };
 		B2FBFCB72AA70AB6008F5440 /* minNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FBFCB62AA70AB6008F5440 /* minNumber.swift */; };
 		B2FBFCB92AA8644E008F5440 /* lcaDeepestLeaves.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FBFCB82AA8644E008F5440 /* lcaDeepestLeaves.swift */; };
@@ -108,6 +110,8 @@
 		78A75CC82466AE9E0084E2A8 /* mySqrt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySqrt.swift; sourceTree = "<group>"; };
 		78A75CCA2468E1600084E2A8 /* myPow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPow.swift; sourceTree = "<group>"; };
 		78A75CCE246A92840084E2A8 /* minStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minStack.swift; sourceTree = "<group>"; };
+		B28FB7F52AAF0ADF00A7C5C5 /* scheduleCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scheduleCourse.swift; sourceTree = "<group>"; };
+		B28FB7F82AAF295C00A7C5C5 /* LargestHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargestHeap.swift; sourceTree = "<group>"; };
 		B2F4174C2AAAB5E600E9A9FB /* findDelayedArrivalTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findDelayedArrivalTime.swift; sourceTree = "<group>"; };
 		B2FBFCB62AA70AB6008F5440 /* minNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minNumber.swift; sourceTree = "<group>"; };
 		B2FBFCB82AA8644E008F5440 /* lcaDeepestLeaves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lcaDeepestLeaves.swift; sourceTree = "<group>"; };
@@ -169,6 +173,7 @@
 		784689782424A7E8007FD3D5 = {
 			isa = PBXGroup;
 			children = (
+				B28FB7F72AAF294600A7C5C5 /* DataStructure */,
 				5267ADBE2A9763750067B386 /* Query */,
 				52EA6C972A8E144E00C99CA9 /* Main */,
 				52EA6C8E2A8CE75400C99CA9 /* Sort */,
@@ -218,6 +223,7 @@
 				78A75CC82466AE9E0084E2A8 /* mySqrt.swift */,
 				78A75CCA2468E1600084E2A8 /* myPow.swift */,
 				78A75CCE246A92840084E2A8 /* minStack.swift */,
+				B28FB7F52AAF0ADF00A7C5C5 /* scheduleCourse.swift */,
 				7895B284246D542700157AB7 /* singleNumber.swift */,
 				7895B286246E359800157AB7 /* subarraySum.swift */,
 				523F7C1D291280DA00AA53D4 /* bestCoordinate.swift */,
@@ -229,6 +235,14 @@
 				524D85062A9C8E5A004A6ACB /* insertIntervals.swift */,
 			);
 			path = AlgorithmDemo;
+			sourceTree = "<group>";
+		};
+		B28FB7F72AAF294600A7C5C5 /* DataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				B28FB7F82AAF295C00A7C5C5 /* LargestHeap.swift */,
+			);
+			path = DataStructure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52EA6C902A8CE76400C99CA9 /* MergeSort.swift in Sources */,
+				B28FB7F92AAF295C00A7C5C5 /* LargestHeap.swift in Sources */,
 				523F7C1C29127F7B00AA53D4 /* String+Extension.swift in Sources */,
 				523F7C1E291280DA00AA53D4 /* bestCoordinate.swift in Sources */,
 				5286D8F929225124004FD91C /* splitArraySameAverage.swift in Sources */,
@@ -302,6 +317,7 @@
 				78462BF42455263800D68D49 /* mergeKLists.swift in Sources */,
 				7891A38A24494D9D00094FC1 /* myAtoi.swift in Sources */,
 				B2F4174D2AAAB5E600E9A9FB /* findDelayedArrivalTime.swift in Sources */,
+				B28FB7F62AAF0ADF00A7C5C5 /* scheduleCourse.swift in Sources */,
 				524D85032A98AA55004A6ACB /* goodNodes.swift in Sources */,
 				5267AD9C2A94A3860067B386 /* maxDistToClosest.swift in Sources */,
 				7891A3882449439400094FC1 /* reverseIntNumber.swift in Sources */,

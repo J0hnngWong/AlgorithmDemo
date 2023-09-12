@@ -123,3 +123,66 @@ extension Array where Element: Comparable {
         return result
     }
 }
+
+extension Array {
+    func mergeSort(by using: ((_ l: Element, _ r: Element) -> Bool)) -> Self {
+        var unsort = self
+        var processing = unsort
+        
+        var steps = 1
+        
+        while steps < count {
+            // index ... index + steps
+            
+            var leftIndex = 0
+            while leftIndex < count {
+                
+                var currentProcessingIndex = leftIndex
+                
+                var leftCurrentIndex = leftIndex
+                var rightCurrentIndex = Swift.min(leftIndex + steps, count - 1)
+                
+                let leftEndCurrentIndex = rightCurrentIndex - 1
+                let rightEndCurrentIndex = Swift.min(rightCurrentIndex + steps - 1, count - 1)
+                
+                while leftCurrentIndex <= leftEndCurrentIndex && rightCurrentIndex <= rightEndCurrentIndex {
+                    let leftValue = unsort[leftCurrentIndex]
+                    let rightValue = unsort[rightCurrentIndex]
+                    if using(leftValue, rightValue) {
+                        processing[currentProcessingIndex] = leftValue
+                        leftCurrentIndex += 1
+                        currentProcessingIndex += 1
+                    } else { // if rightValue < leftValue
+                        processing[currentProcessingIndex] = rightValue
+                        rightCurrentIndex += 1
+                        currentProcessingIndex += 1
+                    }
+                }
+                
+                while leftCurrentIndex <= leftEndCurrentIndex {
+                    processing[currentProcessingIndex] = unsort[leftCurrentIndex]
+                    currentProcessingIndex += 1
+                    leftCurrentIndex += 1
+                }
+                
+                while rightCurrentIndex <= rightEndCurrentIndex {
+                    processing[currentProcessingIndex] = unsort[rightCurrentIndex]
+                    currentProcessingIndex += 1
+                    rightCurrentIndex += 1
+                }
+                
+                leftIndex += steps * 2
+            }
+            
+            let lastState = unsort
+            unsort = processing
+            processing = lastState // 将之前状态中的数据放下来，确保后面再进行时不需要动的数据可以直接放下来
+            
+            steps *= 2
+        }
+        
+        let sorted = unsort
+        
+        return sorted
+    }
+}
