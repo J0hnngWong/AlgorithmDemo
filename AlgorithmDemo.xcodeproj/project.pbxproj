@@ -51,6 +51,8 @@
 		B28FB7F62AAF0ADF00A7C5C5 /* scheduleCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28FB7F52AAF0ADF00A7C5C5 /* scheduleCourse.swift */; };
 		B28FB7F92AAF295C00A7C5C5 /* LargestHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28FB7F82AAF295C00A7C5C5 /* LargestHeap.swift */; };
 		B28FB7FB2AAFFFA600A7C5C5 /* checkIfPrerequisite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28FB7FA2AAFFFA600A7C5C5 /* checkIfPrerequisite.swift */; };
+		B2D4C9A32AF4B1AC004E545F /* connectRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D4C9A22AF4B1AC004E545F /* connectRoot.swift */; };
+		B2D4C9A52AF4C234004E545F /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D4C9A42AF4C234004E545F /* Queue.swift */; };
 		B2F4174D2AAAB5E600E9A9FB /* findDelayedArrivalTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F4174C2AAAB5E600E9A9FB /* findDelayedArrivalTime.swift */; };
 		B2FBFCB72AA70AB6008F5440 /* minNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FBFCB62AA70AB6008F5440 /* minNumber.swift */; };
 		B2FBFCB92AA8644E008F5440 /* lcaDeepestLeaves.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FBFCB82AA8644E008F5440 /* lcaDeepestLeaves.swift */; };
@@ -114,6 +116,8 @@
 		B28FB7F52AAF0ADF00A7C5C5 /* scheduleCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scheduleCourse.swift; sourceTree = "<group>"; };
 		B28FB7F82AAF295C00A7C5C5 /* LargestHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargestHeap.swift; sourceTree = "<group>"; };
 		B28FB7FA2AAFFFA600A7C5C5 /* checkIfPrerequisite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkIfPrerequisite.swift; sourceTree = "<group>"; };
+		B2D4C9A22AF4B1AC004E545F /* connectRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connectRoot.swift; sourceTree = "<group>"; };
+		B2D4C9A42AF4C234004E545F /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		B2F4174C2AAAB5E600E9A9FB /* findDelayedArrivalTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findDelayedArrivalTime.swift; sourceTree = "<group>"; };
 		B2FBFCB62AA70AB6008F5440 /* minNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minNumber.swift; sourceTree = "<group>"; };
 		B2FBFCB82AA8644E008F5440 /* lcaDeepestLeaves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lcaDeepestLeaves.swift; sourceTree = "<group>"; };
@@ -236,6 +240,7 @@
 				5267ADBB2A9753760067B386 /* countPairs.swift */,
 				524D85022A98AA55004A6ACB /* goodNodes.swift */,
 				524D85062A9C8E5A004A6ACB /* insertIntervals.swift */,
+				B2D4C9A22AF4B1AC004E545F /* connectRoot.swift */,
 			);
 			path = AlgorithmDemo;
 			sourceTree = "<group>";
@@ -244,6 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				B28FB7F82AAF295C00A7C5C5 /* LargestHeap.swift */,
+				B2D4C9A42AF4C234004E545F /* Queue.swift */,
 			);
 			path = DataStructure;
 			sourceTree = "<group>";
@@ -342,12 +348,14 @@
 				52EA6C962A8E13B800C99CA9 /* Algorithm.swift in Sources */,
 				52EA6C872A8B582900C99CA9 /* findReplaceString.swift in Sources */,
 				78A75CCB2468E1600084E2A8 /* myPow.swift in Sources */,
+				B2D4C9A52AF4C234004E545F /* Queue.swift in Sources */,
 				781E5370242DEC3F00CD9544 /* findMedianSortedArrays.swift in Sources */,
 				7891A38624487A8500094FC1 /* convertZString.swift in Sources */,
 				78A75CCF246A92850084E2A8 /* minStack.swift in Sources */,
 				78462BF62455837B00D68D49 /* aCrash.swift in Sources */,
 				523F7C202913668F00AA53D4 /* maxRepeating.swift in Sources */,
 				7895B287246E359800157AB7 /* subarraySum.swift in Sources */,
+				B2D4C9A32AF4B1AC004E545F /* connectRoot.swift in Sources */,
 				523F7C1929127F1700AA53D4 /* isMatch2.swift in Sources */,
 				7831380824506D97009CD387 /* RightSideViewofBinaryTree.swift in Sources */,
 				B2FBFCB72AA70AB6008F5440 /* minNumber.swift in Sources */,

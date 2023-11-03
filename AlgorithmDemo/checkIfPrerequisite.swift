@@ -10,22 +10,22 @@ import Foundation
 
 extension Solution {
     
-    struct Queue<T> {
-        var list: [T] = []
-        @discardableResult
-        mutating func pop() -> T {
-            list.removeLast()
-        }
-        mutating func push(_ e: T) {
-            list.append(e)
-        }
-        func front() -> T? {
-            list.last
-        }
-        var isEmpty: Bool {
-            list.isEmpty
-        }
-    }
+//    struct Queue<T> {
+//        var list: [T] = []
+//        @discardableResult
+//        mutating func pop() -> T {
+//            list.removeLast()
+//        }
+//        mutating func push(_ e: T) {
+//            list.append(e)
+//        }
+//        func front() -> T? {
+//            list.first
+//        }
+//        var isEmpty: Bool {
+//            list.isEmpty
+//        }
+//    }
     
     func checkIfPrerequisite(_ numCourses: Int, _ prerequisites: [[Int]], _ queries: [[Int]]) -> [Bool] {
         var indegree = [Int](repeating: 0, count: numCourses)
