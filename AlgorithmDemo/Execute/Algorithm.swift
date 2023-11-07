@@ -151,7 +151,7 @@ class Algorithm {
     
     func run() {
         
-        var outResult = [1,1,2]
+        var outResult = [1,2]
         let startTime = Date().timeIntervalSince1970
         //Test.testTwoNumberSum()
         //Test.testLengthOfLongestSubstring()
@@ -194,7 +194,9 @@ class Algorithm {
 //            .checkIfPrerequisite(2, [[1,0]], [[0,1],[1,0]])
 //            .checkIfPrerequisite(5, [[0,1],[1,2],[2,3],[3,4]], [[0,4],[4,0],[1,3],[3,0]])
 //            .maxProduct(["abcw","baz","foo","bar","xtfn","abcdef"])
-            .removeDuplicates(&outResult)
+//            .removeDuplicates(&outResult)
+//            .majorityElement([-1,1,1,1,2,1])
+            .rotate(&outResult, 2)
 
         let endTime = Date().timeIntervalSince1970
 

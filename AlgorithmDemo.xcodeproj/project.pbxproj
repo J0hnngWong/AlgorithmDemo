@@ -53,6 +53,8 @@
 		B28FB7FB2AAFFFA600A7C5C5 /* checkIfPrerequisite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28FB7FA2AAFFFA600A7C5C5 /* checkIfPrerequisite.swift */; };
 		B2CD07442AF87647009D996D /* maxProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CD07432AF87647009D996D /* maxProduct.swift */; };
 		B2CD07462AF87D5E009D996D /* removeDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CD07452AF87D5E009D996D /* removeDuplicates.swift */; };
+		B2CD07542AF9D808009D996D /* majorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CD07532AF9D808009D996D /* majorityElement.swift */; };
+		B2CD07582AF9E00E009D996D /* rotateArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CD07572AF9E00E009D996D /* rotateArray.swift */; };
 		B2D4C9A32AF4B1AC004E545F /* connectRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D4C9A22AF4B1AC004E545F /* connectRoot.swift */; };
 		B2D4C9A52AF4C234004E545F /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D4C9A42AF4C234004E545F /* Queue.swift */; };
 		B2F4174D2AAAB5E600E9A9FB /* findDelayedArrivalTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F4174C2AAAB5E600E9A9FB /* findDelayedArrivalTime.swift */; };
@@ -120,6 +122,8 @@
 		B28FB7FA2AAFFFA600A7C5C5 /* checkIfPrerequisite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkIfPrerequisite.swift; sourceTree = "<group>"; };
 		B2CD07432AF87647009D996D /* maxProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maxProduct.swift; sourceTree = "<group>"; };
 		B2CD07452AF87D5E009D996D /* removeDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeDuplicates.swift; sourceTree = "<group>"; };
+		B2CD07532AF9D808009D996D /* majorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = majorityElement.swift; sourceTree = "<group>"; };
+		B2CD07572AF9E00E009D996D /* rotateArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotateArray.swift; sourceTree = "<group>"; };
 		B2D4C9A22AF4B1AC004E545F /* connectRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connectRoot.swift; sourceTree = "<group>"; };
 		B2D4C9A42AF4C234004E545F /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		B2F4174C2AAAB5E600E9A9FB /* findDelayedArrivalTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findDelayedArrivalTime.swift; sourceTree = "<group>"; };
@@ -214,6 +218,8 @@
 				781E5371242E033800CD9544 /* longestPalindrome.swift */,
 				7891A38524487A8500094FC1 /* convertZString.swift */,
 				B2CD07452AF87D5E009D996D /* removeDuplicates.swift */,
+				B2CD07532AF9D808009D996D /* majorityElement.swift */,
+				B2CD07572AF9E00E009D996D /* rotateArray.swift */,
 				529E31072913CC8A00585962 /* intToRoman.swift */,
 				5286D8F829225124004FD91C /* splitArraySameAverage.swift */,
 				52EA6C802A8A36B900C99CA9 /* MergeTrees.swift */,
@@ -324,6 +330,7 @@
 				523F7C1E291280DA00AA53D4 /* bestCoordinate.swift in Sources */,
 				5286D8F929225124004FD91C /* splitArraySameAverage.swift in Sources */,
 				7895B285246D542700157AB7 /* singleNumber.swift in Sources */,
+				B2CD07582AF9E00E009D996D /* rotateArray.swift in Sources */,
 				7831380A24507075009CD387 /* createBinaryTree.swift in Sources */,
 				78A75C352457C7D80084E2A8 /* findSingleNumbers.swift in Sources */,
 				52EA6C892A8B713700C99CA9 /* longestValidParentheses.swift in Sources */,
@@ -351,6 +358,7 @@
 				5267AD942A936CB30067B386 /* SortChecking.swift in Sources */,
 				B28FB7FB2AAFFFA600A7C5C5 /* checkIfPrerequisite.swift in Sources */,
 				5267ADBC2A9753760067B386 /* countPairs.swift in Sources */,
+				B2CD07542AF9D808009D996D /* majorityElement.swift in Sources */,
 				78A75CBA246293130084E2A8 /* mincostTickets.swift in Sources */,
 				52EA6C962A8E13B800C99CA9 /* Algorithm.swift in Sources */,
 				52EA6C872A8B582900C99CA9 /* findReplaceString.swift in Sources */,
