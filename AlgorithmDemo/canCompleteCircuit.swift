@@ -8,6 +8,7 @@
 
 import Foundation
 
+// https://leetcode.cn/problems/gas-station/?envType=study-plan-v2&envId=top-interview-150
 extension Solution {
     func canCompleteCircuit(_ gas: [Int], _ cost: [Int]) -> Int {
         var index = 0

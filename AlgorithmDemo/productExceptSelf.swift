@@ -8,6 +8,7 @@
 
 import Foundation
 
+// https://leetcode.cn/problems/product-of-array-except-self/?envType=study-plan-v2&envId=top-interview-150
 extension Solution {
     func productExceptSelf(_ nums: [Int]) -> [Int] {
         var leftProduct = [Int](repeating: 1, count: nums.count)
